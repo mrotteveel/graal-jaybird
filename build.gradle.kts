@@ -22,12 +22,6 @@ graalvmNative {
         named("main") {
             imageName.set("application")
             mainClass.set("nl.lawinegevaar.graal.experiment.Main")
-//            resources {
-//                autodetect()
-//                includedPatterns.addAll(
-//                    "^org/firebirdsql/.*\\.properties$"
-//                )
-//            }
         }
     }
 }
